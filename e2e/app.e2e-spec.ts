@@ -1,10 +1,10 @@
-import { UiPage } from './app.po';
+import { PaniersPage } from './app.po';
 
-describe('ui App', () => {
-  let page: UiPage;
+describe('paniers App', () => {
+  let page: PaniersPage;
 
   beforeEach(() => {
-    page = new UiPage();
+    page = new PaniersPage();
   });
 
   it('should display welcome message', () => {
